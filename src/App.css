@@ -1,0 +1,16 @@
+.app {
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.delay {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+}
