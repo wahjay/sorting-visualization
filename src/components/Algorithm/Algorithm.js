@@ -358,4 +358,13 @@ const insertionSort = async (nums, update, speed) => {
   finished(nums);
 }
 
-export { countingSort, heapSort, quickSort, mergeSort, bubbleSort, insertionSort, reset, timeId };
+const Algos = {
+  'Bubble Sort': bubbleSort,
+  'Quick Sort': quickSort,
+  'Merge Sort': mergeSort,
+  'Heap Sort': heapSort,
+  'Insertion Sort': insertionSort,
+  'Counting Sort': countingSort,
+};
+
+export { Algos, reset, timeId };
