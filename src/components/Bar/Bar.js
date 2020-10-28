@@ -1,7 +1,7 @@
 import React from 'react';
 import './Bar.css';
 
-export default function Bar({ height, width, barRef, correct, wrong }) {
+export default function Bar({ height, width, barRef }) {
     return (
       <div
         className="bar"
