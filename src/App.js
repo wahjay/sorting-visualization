@@ -1,16 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Bar from './components/Bar/Bar';
-import {
-  countingSort,
-  heapSort,
-  quickSort,
-  mergeSort,
-  bubbleSort,
-  insertionSort,
-  reset,
-  timeId,
-} from './components/Algorithm/Algorithm';
+import { Algos, reset, timeId } from './components/Algorithm/Algorithm';
 import './App.css';
 
 // return array of nums [1...N]
@@ -30,15 +21,6 @@ const shuffle = (A) => {
 }
 
 const MAX = 220;
-
-const Algos = {
-  'Bubble Sort': bubbleSort,
-  'Quick Sort': quickSort,
-  'Merge Sort': mergeSort,
-  'Heap Sort': heapSort,
-  'Insertion Sort': insertionSort,
-  'Counting Sort': countingSort,
-};
 
 function App() {
   const [nums, setNums] = useState([]);
